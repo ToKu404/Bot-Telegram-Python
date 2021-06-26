@@ -7,7 +7,7 @@ this bot will write lontara or bugis script from your input bugis lenguage using
 <a href="https://t.me/aksara_bugis_bot">Click Here</a>
 
 #### Author :
-<a href="https://t.me/ToKu404">Click Here</a
+<a href="https://t.me/ToKu404">Click Here</a>
   
 ### Library :
 - This Bot Make Using pyTelegramBotAPI
