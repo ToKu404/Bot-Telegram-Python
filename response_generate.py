@@ -107,7 +107,7 @@ def translate_font(tempText):
                 index+=1
                 continue
        
-        if(index<len(tempText)-2):
+        if(index<len(tempText)-1):
             if(tempText[index] not in list_consonant_full and tempText[index+1] not in list_consonant_full):
                 index += 1
                 continue
