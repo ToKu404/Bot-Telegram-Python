@@ -13,7 +13,7 @@ bot = telebot.TeleBot(API_KEY)
 def greet(message):
     name = message.from_user.first_name 
     bot.send_message(message.chat.id, 
-    f'Hy, {name}!\nSelamat datang di bot Aksara Bugis Writer \n\Silahkan Masukkan Kata atau kalimat bahasa bugis yang ingin anda tulis dengan lontara (aksara bugis) dengan command seperti dibawah contoh ini\n 1. /w manu\n 2. /w kaluku\ndst..\n\n*Catatan Untuk Membedakan e dan E :v\n- enErgi\n- Empat\n- Ember\n\nSelamat Mencoba :)\nJika Menemukan Error atau Bug\nContact : t.me/ToKu404', disable_web_page_preview=True)
+    f'Hy, {name}!\nSelamat datang di bot Aksara Bugis Writer \nSilahkan Masukkan Kata atau kalimat bahasa bugis yang ingin anda tulis dengan lontara (aksara bugis) dengan command seperti dibawah contoh ini\n 1. /w manu\n 2. /w kaluku\ndst..\n\n*Catatan Untuk Membedakan e dan E :v\n- enErgi\n- Empat\n- ember\n\nSelamat Mencoba :)\nJika Menemukan Error atau Bug\nContact : t.me/ToKu404', disable_web_page_preview=True)
 
 @bot.message_handler(commands=['w'])
 def hello(message):
